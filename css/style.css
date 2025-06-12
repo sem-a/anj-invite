@@ -1,0 +1,119 @@
+@font-face {
+  font-family: "Hamilton";
+  src: url(../font/Hamiltone.otf);
+}
+
+body {
+  background: url(../img/bg.png);
+  font-family: "Arsenal SC", sans-serif;
+}
+
+.welcome {
+  width: 100vw;
+  height: 100vh;
+}
+.welcome-block {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  overflow-x: hidden;
+  gap: 10px;
+}
+.discoball {
+  position: relative;
+}
+.discoball-img {
+  position: relative;
+  display: inline-block;
+}
+.discoball-img img {
+  margin-top: 45px;
+  width: 166px;
+}
+.discoball-absolute {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+}
+.welcome-title {
+  position: relative;
+}
+.welcome-title h2 {
+  margin-top: 42px;
+  font-family: "Hamilton";
+  font-size: 64px;
+  line-height: 60px;
+  color: #dd3933;
+  width: 194px;
+  text-align: center;
+  transform: rotate(-20deg);
+}
+.welcome-title img {
+  position: absolute;
+}
+
+.calendar {
+  margin-top: 21px;
+  font-family: "Arsenal SC", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  overflow-x: hidden;
+  padding-bottom: 20px;
+}
+.month {
+  text-align: center;
+  border-top: 2px solid black;
+  border-bottom: 1px solid black;
+  padding-block: 5px;
+}
+.number {
+  font-size: 96px;
+  min-width: 115px;
+  height: 115px;
+  text-align: center;
+  border: 1px solid black;
+  border-bottom: 2px solid black;
+}
+.calendar-number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.o {
+  position: relative;
+}
+.o img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 132px;
+}
+.welcome-text {
+  position: relative;
+}
+.welcome-text img {
+  position: absolute;
+  top: 80px;
+  left: 18px;
+}
+.welcome-name {
+  text-align: right;
+  font-size: 48px;
+  font-weight: 700;
+}
+.welcome-again {
+  text-align: right;
+  font-size: 40px;
+  font-weight: 700;
+}
+.welcome-age {
+  margin-top: -30px;
+  font-size: 128px;
+  font-weight: 700;
+  color: #dd3933;
+  text-align: right;
+}
+.welcome-age span {
+  font-size: 40px;
+  color: black;
+}
