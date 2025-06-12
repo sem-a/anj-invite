@@ -10,7 +10,7 @@ body {
 
 .welcome {
   width: 100vw;
-  height: 100vh;
+  height: 120vh;
 }
 .welcome-block {
   display: flex;
@@ -125,7 +125,7 @@ body {
   justify-content: center;
   width: 100vw;
   height: 100vh;
-  padding: 105px 0px;
+  padding: 63px 0px;
 }
 .where,
 .when {
@@ -133,12 +133,12 @@ body {
   font-weight: 700;
 }
 .when {
-  top: 105px;
+  top: 63px;
   left: 14px;
   width: 30%;
 }
 .where {
-  top: 105px;
+  top: 63px;
   right: 14px;
   text-align: right;
   width: 30%;
@@ -147,6 +147,7 @@ body {
   text-align: center;
 }
 .info-number {
+  margin-top: -42px;
   font-size: 256px;
   font-weight: 700;
   color: #dd3933;
