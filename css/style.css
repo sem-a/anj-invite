@@ -175,3 +175,34 @@ body {
   left: 50%;
   transform: translateX(-50%);
 }
+.form {
+  padding: 0px 14px 120px 14px;
+}
+p.form-text {
+  font-family: "Arial", sans-serif;
+  font-style: italic;
+  text-align: center;
+}
+input {
+  margin-top: 21px;
+  width: 100%;
+  font-size: 24px;
+  font-family: "Arial", sans-serif;
+  font-style: italic;
+  padding: 14px 21px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+}
+button {
+  margin-top: 21px;
+  width: 100%;
+  font-size: 24px;
+  font-family: "Arial", sans-serif;
+  font-style: italic;
+  padding: 14px 21px;
+  border-radius: 10px;
+  color: white;
+  background-color: #dd3933;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+}
