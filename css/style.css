@@ -129,6 +129,7 @@ body {
 .where,
 .when {
   position: absolute;
+  font-weight: 500;
 }
 .when {
   top: 21px;
