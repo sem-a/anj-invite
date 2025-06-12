@@ -117,3 +117,58 @@ body {
   font-size: 40px;
   color: black;
 }
+
+.info {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+.where,
+.when {
+  position: absolute;
+}
+.when {
+  top: 21px;
+  left: 14px;
+  width: 30%;
+}
+.where {
+  top: 21px;
+  right: 14px;
+  text-align: right;
+  width: 30%;
+}
+.info-date {
+  text-align: center;
+}
+.info-number {
+  font-size: 256px;
+  font-weight: 700;
+  color: #dd3933;
+  margin-right: 20px;
+}
+.info-month {
+  font-size: 64px;
+  font-weight: 700;
+  color: #dd3933;
+}
+.info-weekday {
+  font-size: 48px;
+  font-weight: 700;
+  color: #dd3933;
+}
+.info-description {
+  margin-top: 14px;
+  text-align: left;
+  font-family: "Arial", sans-serif;
+  font-style: italic;
+}
+.info-img {
+  width: 200px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
